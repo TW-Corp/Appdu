@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Appdu Inc</title>
+        <style>
+p.appdudes {
+    text-indent: 50px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+}
+h1 {
+    font-family: "Times New Roman", Times, serif;
+}
+h3 {
+    font-style: italic;
+    font-style:bold;
+    color:Darkred;
+    text-decoration:underline;
+}
+body {
+    background-color:dodgerblue;
+}
+ul.nav {
+    margin: 0;
+    list-style-type: none;
+    padding:0;
+    padding-top:0;
+    overflow: hidden;
+    background-color:aqua;
+}
+li.nav {
+    float: left;
+}
+li.nav a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+li.nav a:hover {
+    background-color: darkblue;
+ color:white;
+}
+p.newsteaser1 {
+    text-indent: 50px;
+    font-family: "Times New Roman", Times, serif;
+    position:absolute;
+    color:black;
+    top:30px;
+    left:0;
+}
+ h3.relatednews {
+     top: 20px;
+     right: 20px;
+ }
+
+ li#active {
+     color: white;
+     background-color: darkblue;
+ } 
+ div.stories {
+     position: absolute;
+     left:100px;
+     width:300px;
+     top: 75px;
+     background-color: lightblue; }
+
+
+ ul.stories {
+     list-style-type: none;
+ }
+ a.nav {
+     
+ }
+ form.suggestions {
+     position:absolute;
+     top: 75px;
+     left:450px;
+ }      
+ </style> 
+    </head>
+    <body> 
+        <ul class="nav">
+            <li class="nav"><a class="nav" href="index.html">Home</a></li>
+            <li class="nav"><a class="nav" href="products.html">Products</a></li>
+            <li id="active" class="nav"><a class="nav" href="news.html">News</a></li>
+        </ul>
+         <div class="stories">
+
+             <center><h1>Current Stories:</h1></center>
+             
+             <ul class="stories">
+                <li class="stories"><a href="link1.html">STORY NAME HERE</a></li>
+      
+        </div>
+      
+         <form class="suggestions" method="post" action="sendmail.php">
+             Submit an Idea: <type="text"/><br>
+              Email: <input name="email" type="text" /><br />
+              Message:<br />
+              <textarea name="message" rows="15" cols="40"></textarea><br />
+              <input type="submit" />
+        </form>
+      
+</html>
